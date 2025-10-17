@@ -9,7 +9,8 @@ def calculate_grade(score):
         return "D"
     else:
         return "F"
-    
+
+# determine the column widht based on the lenght of a subject    
 def spaces(subject):
     size = len(subject) + 3
     if size < 10:
